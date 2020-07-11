@@ -1,15 +1,14 @@
 import React from 'react';
-
+import ColectionItem from '../../component/colection-item/colection-item.component';
 
 const ColectionPreview=({title,items})=>(
 
-   <div colection-preview>
+   <div className='colection-preview'>
       <h1 className='title'>{title}</h1>
       <div className='preview'>
-         { items.map(item =>(              
-            <div key={items.id} >{item.name}{item.price}
-            {<img alt='imageName' src={item.imageUrl} />}  
-            </div>              
+         { items.filter((items,idx)=>idx < 4)
+         .map(item =>(              
+            <ColectionItem key={item.id} name={item.name} price={item.price} imageUrl={item.imageUrl}/>              
          ))}
       </div>
    </div>

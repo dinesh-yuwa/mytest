@@ -12,37 +12,36 @@ class MenuDirectory extends React.Component{
 
             {
                 title:'hats',
-                imageUrl:'https://i.iib.co/cvpntL1/hats.png',
+                imageUrl:'https://i.ibb.co/1f2nWMM/wolf-cap.png',
                 linkUrl:'hats',
                 id:1
             },
             {
                 title:'jackets',
-                imageUrl:'https://i.iib.co/px2tCc3/jackets.png',
+                imageUrl:'https://i.ibb.co/XzcwL5s/black-shearling.png',
                 linkUrl:'jackets',
                 id:2
             },
             {
                 title:'sneakers',
-                imageUrl:'https://i.iib.co/0jqHpnp/sneakers.png',
+                imageUrl:'https://i.ibb.co/dJbG1cT/yeezy.png',
                 linkUrl:'sneakers',
                 id:3
             },
             {
                 title:'women',
-                imageUrl:'https://i.iib.co/GCCdy8t/womens.png',
+                imageUrl:'https://i.ibb.co/7CQVJNm/blue-tank.png',
                 linkUrl:'women',
                 size:'large',
                 id:4
             },
             {
                 title:'men',
-                imageUrl:'https://i.iib.co/men.png',
+                imageUrl:'https://i.ibb.co/RvwnBL8/pink-shirt.png',
                 linkUrl:'men',
                 size:'large',
                 id:5
             }]
-
 
         };
 
