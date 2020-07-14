@@ -1,19 +1,12 @@
 .colection-preview{
-    width:90%;
-    background-color: greenyellow;
-    height:240px;
-    border:1px solid black;
-    &.title{
-        font-size: 22px;
-
-    }
-
-    &.preview{
-        font-size: 10px;
-
-    }
-       
+   
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+        
 }
+
+
 
 
 
